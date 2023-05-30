@@ -25,6 +25,17 @@ const typeDefs = gql`
     photo: String
   }
 
+  type Mutation {
+    incrementTrackViews(id : ID!) : IncrementTrackViewResponse
+  }
+
+  type IncrementTrackViewResponse {
+    code : Int!
+    success : Boolean!
+    message : String!
+    track : Track
+  }
+
   type Query {
     tracksForHome: [Track!]!
     track(id : ID!) : Track

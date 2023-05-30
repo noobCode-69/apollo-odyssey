@@ -2,7 +2,7 @@
   "name": "catstronauts-client",
   "version": "1.0.0",
   "private": true,
-  "description": "front-end demo app for Apollo's lift-off III course",
+  "description": "front-end demo app for Apollo's lift-off IV course",
   "dependencies": {
     "@apollo/client": "^3.3.6",
     "@apollo/space-kit": "^9.3.1",
@@ -17,7 +17,7 @@
     "react-emotion": "^10.0.0",
     "react-markdown": "^6.0.2",
     "react-player": "^2.6.0",
-    "react-router-dom": "^6.8.0",
+    "react-router-dom": "^6.7.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
